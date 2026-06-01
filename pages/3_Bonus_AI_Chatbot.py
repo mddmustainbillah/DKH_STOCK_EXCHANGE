@@ -14,7 +14,7 @@ import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 from signal_engine import DSESectorSignalEngine
 
-st.set_page_config(page_title="Bonus AI Chatbot", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="AI Chatbot", page_icon="🤖", layout="wide")
 st.title("Bonus: AI Signal Engine and Investment Chatbot")
 st.markdown(
     "This section includes risk management tools, position sizing guidance, "
