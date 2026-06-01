@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 st.title("DSE Sector Rotation Dashboard")
-st.markdown("**Prepared for IDLC Securities | Senior Data Scientist Assignment**")
+st.markdown("**Prepared for IDLC Securities | Data Scientist Assignment**")
 st.divider()
 
 col1, col2 = st.columns([2, 1])
