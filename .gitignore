@@ -1,0 +1,33 @@
+# ── Raw data (too large for GitHub, keep locally only) ────────────────────
+data/raw/
+
+# ── API keys and secrets (never commit these) ─────────────────────────────
+.streamlit/secrets.toml
+*.env
+.env.*
+secrets.toml
+
+# ── Python virtual environment ────────────────────────────────────────────
+idlc_venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Jupyter notebook checkpoints ─────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── macOS system files ────────────────────────────────────────────────────
+.DS_Store
+
+# ── Editor files ──────────────────────────────────────────────────────────
+.vscode/settings.json
+
+# ── Claude Code AI memory (personal, not for sharing) ─────────────────────
+.claude/
+
+# ── Personal / scratch files ──────────────────────────────────────────────
+hello.py
+NOTEBOOK_00_SUMMARY.md
+NOTEBOOK_01_SUMMARY.md
